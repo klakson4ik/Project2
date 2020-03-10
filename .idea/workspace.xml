@@ -2,132 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9247a175-6ef7-4f9f-9630-da7ec0629bde" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/28560e0a-d2e0-4396-a1ae-e233320124b1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/28560e0a-d2e0-4396-a1ae-e233320124b1/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/28560e0a-d2e0-4396-a1ae-e233320124b1/storage_v2/_src_/schema/related_product.27Q_5w.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/maks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/AppController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/CartController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/CategoryController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/CurrencyController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/MainController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/ProductController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/SearchController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/UserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/AppModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/cart/CartModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/category/CategoryDB.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/category/CategoryTree.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/category/CategoryView.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/currency/CurrencyDB.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/currency/CurrencyModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/main/MainDB.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/main/MainModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/product/Mods.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/product/Product.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/product/ProductDB.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/product/RecentlyViewed.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/product/Related.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/search/SearchProduct.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/search/SerchDB.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/user/UserDB.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/user/UserModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/Category/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/General/cardProduct.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/Main/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/Product/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/Search/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/User/Validate_tmp/checkNewUser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/User/Validate_tmp/checkValidate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/User/registration.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/User/success.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/User/validate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/layouts/default.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/widgets/basket/Basket.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/widgets/basket/BasketCookie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/widgets/basket/BasketDB.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/widgets/basket/BasketSession.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/widgets/basket/CSS/basket_tpl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/widgets/basket/basket_tpl/basket_current_price.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/widgets/basket/basket_tpl/basket_tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/widgets/basket/basket_tpl/basket_tpl_bay.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/widgets/basket/interfaces/InterfaceCookie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/widgets/breadcrumbs/Breadcrumbs.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/widgets/breadcrumbs/BreadcrumbsModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/widgets/breadcrumbs/BreadcrumbsTemplate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/widgets/breadcrumbs/BreadcrumbsView.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/widgets/breadcrumbs/breadcrumbsDB.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/widgets/currency/Currency.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/widgets/currency/currency_tpl/сurrency_tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/widgets/menu/Menu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/widgets/menu/menu_tpl/menu_tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/widgets/pagination/Pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/widgets/pagination/PaginationDB.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/widgets/pagination/PaginationModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/widgets/pagination/PaginationView.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/Config_DB.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/Init.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/404.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/development.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/view.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/errors/404.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/errors/dev.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/errors/prod.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/Slayder/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/Slayder/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/Slayder/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/Slayder/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/Slayder/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/mobile/iphone_8_plus.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/mobile/iphone_x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/mobile/iphone_xs.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/mobile/nokia_8.1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/mobile/nokia_9_pureview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/mobile/samsung_galaxy_s10.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/mobile/samsung_galaxy_s8.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/mobile/samsung_galaxy_s9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/mobile/xiaomi_mi_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/mobile/xiaomi_mi_9.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/mobile/xiaomi_mi_9t_pro.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/other/arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/other/basket.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/other/lens.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/currency.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/slayder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/menu/menu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/cache/searchData.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/cache/searchData.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/errors.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/core/base/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/core/base/Model.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/core/base/View.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/core/libs/Cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/core/libs/DB.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/core/libs/ErrorHandler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/core/libs/FrameRoute.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/core/libs/Functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/core/libs/Router.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/core/libs/Validator/Rules.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/core/libs/Validator/Validator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -309,7 +184,7 @@
       <workItem from="1580994393233" duration="72460000" />
       <workItem from="1581502784864" duration="211789000" />
       <workItem from="1583833671338" duration="600000" />
-      <workItem from="1583837615086" duration="106000" />
+      <workItem from="1583837615086" duration="1093000" />
     </task>
     <servers />
   </component>
