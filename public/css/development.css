@@ -1,0 +1,8 @@
+#body {
+   background-color: lightgrey;
+   font-size: 1.5rem;
+}
+
+#body b {
+   font-weight: 900;
+}

@@ -1,0 +1,164 @@
+.product {
+    display: grid;
+    grid-template-columns:5vw 25vw 45vw 20vw 5vw;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+    margin-top: 2vh;
+}
+
+/*Началная область начало*/
+.firstdiv {
+    margin-top: 2vh;
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 70vh 30vh;
+    grid-gap: 2vh;
+}
+
+.image{
+    border: 1px solid black ;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    grid-row: 1;
+}
+
+.imagesrow{
+    grid-row: 2;
+    border: 1px solid black ;
+    margin-bottom: 2vh;
+}
+
+/*Началная область конец*/
+
+/*Центральная область начало*/
+
+.centerdiv {
+    grid-column: 3;
+    grid-row: 1;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 15vh  45vh 25vh  15vh;
+    margin-top: 2vh;
+}
+
+.centerdivtop{
+   grid-row: 1;
+}
+
+.centerdivmid1{
+    grid-row: 2;
+}
+.centerdivmid2{
+    grid-row: 3;
+    text-align: start;
+    align-self: center;
+}
+
+.centerdivbot {
+    grid-row: 4;
+}
+
+.title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    grid-row: 1;
+}
+
+#pcf1{
+    grid-row: 1;
+}
+
+#pcf2 {
+    grid-row: 4;
+}
+
+.oldprice {
+    text-decoration: line-through;
+    font-weight: lighter;
+}
+
+.centerdivmid2>p {
+    margin: 5vh;
+}
+
+.centerdivmid2 p>span {
+    margin-right: 5vh;
+    width: 250px;
+}
+
+#color{
+}
+
+.centerdivbot input {
+    margin-right: 30px;
+}
+
+.centerdivbot>p>button{
+    margin-right: 15px;
+}
+/*Центральная область конец*/
+
+/*Последняя область начало*/
+.enddiv {
+    grid-column: 4;
+    grid-row: 1;
+}
+
+/*Последняя область конец*/
+
+/*Related область начало*/
+
+.related {
+    /*grid-row: 2;*/
+    grid-column: 2 / 4;
+    margin-bottom: 5vh;
+}
+
+.related>p{
+    font-size: 1.8rem;
+}
+
+.relatedeach{
+    display: flex;
+}
+
+.relatedeachdiv {
+    border: 1px solid black ;
+    width: 50vh;
+    height: 350px;
+    text-align: center;
+    margin-right: 5vw;
+}
+
+.relatedimages{
+    margin: 10px;
+    width: 100px;;
+
+}
+
+.relatedeachdiv>p{
+    font-size: 1.4rem;
+}
+
+#relatedoldprice{
+    text-decoration: line-through;
+}
+
+/*Related область конец*/
+/*Хлебные крошки начало*/
+.breadcrumbs{
+    border: 1px solid black ;
+    margin: 20px;
+    display: inline-flex;
+    padding: 10px;
+    width: 95vw;
+}
+
+.breadcrumbs a {
+    text-decoration: none;
+}
+
+
+/*Хлебные крошки начало*/

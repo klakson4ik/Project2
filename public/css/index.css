@@ -1,0 +1,153 @@
+:root {
+   --wb : 5px;
+}
+.content{
+   border-left:  var(--wb ) solid black;
+   border-right: var(--wb )solid black;
+   background-color: white;
+   width: calc(100% - ((var(--wb) + var(--wb)) + 2px));
+
+}
+
+
+.slayderimg{
+    overflow: hidden;
+    height: 50vh;
+    width: 100%;
+
+}
+
+.slayderimg img{
+    top: 0;
+    width: 100%;
+    opacity: 1;
+    height: 50vh;
+}
+
+.productList{
+   display:grid;
+   grid-template-columns: repeat(3, 1fr);
+   justify-items: start;
+   grid-gap: 2rem;
+   margin-top: 40px;
+}
+
+.eachprod{
+   margin: 20px;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: 15% 50% 25% 10%;
+   border-bottom: 1px solid grey;
+   border-right: 1px solid grey;
+   border-radius: 20px;
+   box-shadow: 5px 5px 15px;
+}
+
+.productList div img{
+   grid-column: 1 / 2;
+   grid-row: 1 / 5;
+}
+
+.productList div :nth-child(2){
+   grid-column: 2 ;
+   grid-row: 1 ;
+   justify-self: center;
+}
+
+.productList div :nth-child(3){
+   grid-column: 2 ;
+   grid-row: 2 ;
+   justify-self: center;
+   align-self: center;
+}
+
+.productList div :nth-child(4){
+   grid-column: 2 ;
+   grid-row: 3 ;
+   justify-self: center;
+   align-self: center;
+}
+
+.productList div :nth-child(4) :first-child{
+   margin-right: 1rem;
+}
+
+
+.productList div :nth-child(5){
+   grid-column: 2 ;
+   grid-row: 4 ;
+   justify-self: end;
+   padding-right: 20px;
+   align-self: end;
+}
+
+.arrow {
+   text-align: center;
+   margin-top: 30px;
+   margin-bottom: 30px;
+
+}
+
+.arrow :nth-child(2){
+   transform: rotate(180deg);
+   margin-left:  60px;
+}
+
+/*Related область начало*/
+
+.related {
+   /*grid-row: 2;*/
+   grid-column: 2 / 4;
+   margin-bottom: 5vh;
+
+
+}
+
+.related>p{
+   font-size: 1.8rem;
+}
+
+.relatedeach{
+   display: flex;
+}
+
+.relatedeachdiv {
+   border: 1px solid black ;
+   width: 50vh;
+   height: 350px;
+   text-align: center;
+   margin-right: 5vw;
+}
+
+.relatedimages{
+   margin: 10px;
+   width: 100px;;
+
+}
+
+.relatedeachdiv>p{
+   font-size: 1.4rem;
+}
+
+#relatedoldprice{
+   text-decoration: line-through;
+}
+
+/*Related область конец*/
+/*Pagination---------------------------------------*/
+
+.pagination{
+   display: flex;
+   text-align: center;
+   justify-content: center;
+}
+
+.pagination a {
+   text-decoration: none;
+}
+.pagination li{
+   list-style-type: none;
+   margin-right: 20px;
+}
+
+/*Pagination---------------------------------------*/
