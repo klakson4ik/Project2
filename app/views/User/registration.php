@@ -14,7 +14,6 @@
         margin-left: 100px;
     }
 
-
     .validate-form label{
         margin-right: 50px;
         margin-bottom: 50px;

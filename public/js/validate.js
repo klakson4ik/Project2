@@ -35,18 +35,15 @@ for (let val of validateArr){
             let regexp = new RegExp(pattern.get(val.name), 'i');
             if(regexp.test(val.value.trim())) {
                 if (val.name === "password-confirm"){
-                    if(val.value === val.parentNode.childNodes[10].value )
+                    if(val.value === val.parentNode.childNodes[10].value)
                     {
                         succussValidate.set('password-ok', true);
-                        succussValidate.set(val.name, true);
                         val.classList.remove("no-validate");
                         val.classList.add("validate");
-                        return true
                     }else{
                         succussValidate.set('password-ok', false);
                         val.classList.remove("validate");
                         val.classList.add("no-validate");
-                        return false
                     }
                 }
                 val.classList.remove("no-validate");

@@ -16,12 +16,21 @@
                 <img src="../public/images/other/lens.png" alt="Линза" width="96px" height="96px">
             </div>
             <div class="reg-auth">
-               <span class="authorisation">
-                   <a href="/user/authorisation">Войти</a>
-               </span>
-                <span class="registration">
-                   <a href="/user/registration">Зарегистрироваться</a>
-               </span>
+                <?php if(!isset($_SESSION['login'])) :?>
+                   <span class="authorisation">
+                       <a href="/user/authorisation">Войти</a>
+                   </span>
+                    <span class="registration">
+                       <a href="/user/registration">Зарегистрироваться</a>
+                   </span>
+                <?php else :?>
+                    <span class="logout">
+                       <a href="/user/logout">выйти </a>
+                   </span>
+                    <span class="auth-user">
+                       <span>Вы <a href="#"><?php echo $_SESSION['login'];?></a></span>
+                   </span>
+                <?php endif ;?>
             </div>
             <div class="basket">
                 <img src="../public/images/other/basket.png" alt="Basket" >
@@ -56,7 +65,8 @@
             </div>
         </header>
         <div class="content">
-            <?=$content;?>
+            <?= /** @var Object $content */
+            $content;?>
         </div>
         <footer>
             <div class="mulbut">

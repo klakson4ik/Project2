@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9247a175-6ef7-4f9f-9630-da7ec0629bde" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/models/user/AuthorisationModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/User/authorisation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user/UserDB.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user/UserDB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/User/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/User/registration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/default.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/validate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/errors.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +110,9 @@
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="ProjectId" id="1SeIJEObEmFCy2UmGbxpBLEtUFb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -118,12 +128,6 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/views/User" />
-      <recent name="$PROJECT_DIR$/app/views/General" />
-      <recent name="$PROJECT_DIR$/public/css" />
-      <recent name="$PROJECT_DIR$/app/views/Product/templates" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/views/User" />
       <recent name="$PROJECT_DIR$/app/views/User/Validate_tmp" />
@@ -131,23 +135,19 @@
       <recent name="$PROJECT_DIR$/app/widgets/breadcrumbs" />
       <recent name="$PROJECT_DIR$/app/widgets/basket/interfaces" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views/User" />
+      <recent name="$PROJECT_DIR$/app/views/General" />
+      <recent name="$PROJECT_DIR$/public/css" />
+      <recent name="$PROJECT_DIR$/app/views/Product/templates" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:project2@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:project2@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@710ce06c" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -184,7 +184,7 @@
       <workItem from="1580994393233" duration="72460000" />
       <workItem from="1581502784864" duration="211789000" />
       <workItem from="1583833671338" duration="600000" />
-      <workItem from="1583837615086" duration="1093000" />
+      <workItem from="1583837615086" duration="22432000" />
     </task>
     <servers />
   </component>
@@ -236,34 +236,34 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1581517534055" />
-    <state width="1291" height="275" key="GridCell.Tab.0.bottom" timestamp="1583837616267">
+    <state width="1291" height="275" key="GridCell.Tab.0.bottom" timestamp="1583840045455">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1291" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1583837616267" />
-    <state width="1291" height="275" key="GridCell.Tab.0.center" timestamp="1583837616266">
+    <state width="1291" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1583840045455" />
+    <state width="1291" height="275" key="GridCell.Tab.0.center" timestamp="1583840045454">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1291" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1583837616266" />
-    <state width="1291" height="275" key="GridCell.Tab.0.left" timestamp="1583837616265">
+    <state width="1291" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1583840045454" />
+    <state width="1291" height="275" key="GridCell.Tab.0.left" timestamp="1583840045454">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1291" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1583837616265" />
-    <state width="1291" height="275" key="GridCell.Tab.0.right" timestamp="1583837616266">
+    <state width="1291" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1583840045454" />
+    <state width="1291" height="275" key="GridCell.Tab.0.right" timestamp="1583840045455">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1291" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1583837616266" />
+    <state width="1291" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1583840045455" />
     <state width="257" height="520" key="HiddenNamespacesPopup" timestamp="1575286211181">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="257" height="520" key="HiddenNamespacesPopup/0.27.1920.1053@0.27.1920.1053" timestamp="1575286211181" />
-    <state x="667" y="364" width="671" height="385" key="NewPhpClassDialog" timestamp="1583330041032">
+    <state x="667" y="364" width="671" height="385" key="NewPhpClassDialog" timestamp="1583848086881">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="667" y="364" width="671" height="385" key="NewPhpClassDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1583330041032" />
-    <state x="756" y="478" width="397" height="158" key="NewPhpFileDialog" timestamp="1583333936073">
+    <state x="667" y="364" width="671" height="385" key="NewPhpClassDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1583848086881" />
+    <state x="756" y="478" width="397" height="158" key="NewPhpFileDialog" timestamp="1583855734083">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="756" y="478" width="397" height="158" key="NewPhpFileDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1583333936073" />
+    <state x="756" y="478" width="397" height="158" key="NewPhpFileDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1583855734083" />
     <state x="828" y="450" width="373" height="241" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1577275256693">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -296,10 +296,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="624" y="252" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1578590209761" />
-    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1583149269545">
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1583849026734">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1583149269545" />
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1583849026734" />
     <state x="685" y="467" width="540" height="180" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1580994411321">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

@@ -21,4 +21,9 @@ class UserDB
         $sql[] = ("SELECT telephone FROM User WHERE telephone = ?");
         return DB::getCheckUser($sql, $array);
     }
+
+    public static function getDBAuth($user){
+        $sql = ("SELECT login, password FROM User WHERE login = ?");
+        return DB::getOne($sql, [$user]);
+    }
 }
