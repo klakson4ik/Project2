@@ -175,12 +175,12 @@ basket.addEventListener('click', () =>
             modalWindowBasket.style.display = "";
         })
 
-        let basketButtonBay = document.querySelector('.basket-button-bay');
+        let basketButtonBay = document.querySelector('.basket-button-order');
 
         basketButtonBay.addEventListener('click', () => {
-            fetchQueryPost('/cart/bay', basketData,(response) => {
+            fetchQueryPost('/cart/order', basketData,(response) => {
                 modalWindowBasket.style.display = "";
-                location.replace ('../cart/bay');
+                location.replace ('../cart/order');
             });
 
         })

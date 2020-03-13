@@ -8155,3 +8155,225 @@
 [2020-03-10 18:53:31] Текст ошибки: Контроллер app\controllers\CssController не найден |
       файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
 ==================
+[2020-03-11 12:14:02] Текст ошибки: Call to undefined method PDOStatement::fetcha() |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/DB.php | Строка: 72 
+==================
+[2020-03-11 12:14:04] Текст ошибки: Call to undefined method PDOStatement::fetcha() |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/DB.php | Строка: 72 
+==================
+[2020-03-11 12:33:01] Текст ошибки: /home/maks/Документы/Web/project2/app/views/Cart/bay.php вид не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/base/View.php | Строка: 36 
+==================
+[2020-03-11 12:33:01] Текст ошибки: /home/maks/Документы/Web/project2/app/views/Cart/bay.php вид не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/base/View.php | Строка: 36 
+==================
+[2020-03-11 12:36:13] Текст ошибки: /home/maks/Документы/Web/project2/app/views/Cart/bay.php вид не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/base/View.php | Строка: 36 
+==================
+[2020-03-11 12:36:13] Текст ошибки: /home/maks/Документы/Web/project2/app/views/Cart/bay.php вид не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/base/View.php | Строка: 36 
+==================
+[2020-03-11 12:36:15] Текст ошибки: /home/maks/Документы/Web/project2/app/views/Cart/bay.php вид не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/base/View.php | Строка: 36 
+==================
+[2020-03-11 12:38:41] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-11 12:53:05] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-11 12:53:24] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-11 12:53:51] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-11 15:04:15] Текст ошибки: Access to undeclared static property: app\controllers\CartController::$action |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 64 
+==================
+[2020-03-11 15:04:19] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-11 15:04:22] Текст ошибки: Access to undeclared static property: app\controllers\CartController::$action |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 64 
+==================
+[2020-03-11 15:04:22] Текст ошибки: Access to undeclared static property: app\controllers\CartController::$action |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 64 
+==================
+[2020-03-11 15:04:46] Текст ошибки: /home/maks/Документы/Web/project2/app/views/Cart/order.php вид не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/base/View.php | Строка: 36 
+==================
+[2020-03-11 15:04:46] Текст ошибки: /home/maks/Документы/Web/project2/app/views/Cart/order.php вид не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/base/View.php | Строка: 36 
+==================
+[2020-03-11 15:05:39] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-11 15:11:21] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-11 15:12:54] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-11 15:13:07] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 12:35:26] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 12:37:00] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 12:37:30] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 12:37:31] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 12:38:54] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 12:42:08] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 12:43:47] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 12:44:45] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 12:44:59] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 12:45:03] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 12:45:10] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 12:46:21] Текст ошибки: Cannot use object of type app\widgets\currency\Currency as array |
+      файл: /home/maks/Документы/Web/project2/app/views/Cart/order.php | Строка: 24 
+==================
+[2020-03-12 12:47:02] Текст ошибки: Cannot use object of type app\widgets\currency\Currency as array |
+      файл: /home/maks/Документы/Web/project2/app/views/Cart/order.php | Строка: 24 
+==================
+[2020-03-12 12:50:28] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 12:52:02] Текст ошибки: Cannot use object of type app\widgets\currency\Currency as array |
+      файл: /home/maks/Документы/Web/project2/app/views/Cart/order.php | Строка: 24 
+==================
+[2020-03-12 12:52:02] Текст ошибки: Cannot use object of type app\widgets\currency\Currency as array |
+      файл: /home/maks/Документы/Web/project2/app/views/Cart/order.php | Строка: 24 
+==================
+[2020-03-12 12:53:47] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 12:54:20] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 13:01:44] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 13:01:48] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 13:01:51] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 13:05:38] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 13:27:48] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 13:28:55] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 13:30:26] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 13:30:49] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 13:31:44] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 13:33:43] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 13:35:26] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 13:35:47] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 13:37:24] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 13:37:28] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 13:37:30] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 13:39:20] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 13:39:25] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 13:39:28] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 13:39:29] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 13:40:34] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 13:50:52] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 13:52:08] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 13:52:30] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 13:54:03] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 14:09:17] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 14:09:26] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 14:09:28] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 14:09:47] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 15:39:39] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 15:40:51] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 15:43:06] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 15:44:27] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 15:45:02] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 15:45:41] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-12 15:45:42] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================

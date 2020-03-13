@@ -69,7 +69,7 @@ class DB
             $stmt->bindValue(2, $val[1], \PDO::PARAM_INT);
             $stmt->bindValue(3, $val[2], \PDO::PARAM_INT);
             $stmt->execute();
-            $fullArray[]  = $stmt->fetcha();
+            $fullArray[]  = $stmt->fetch();
         }
 
         return $fullArray;

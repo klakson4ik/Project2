@@ -1,6 +1,5 @@
 <div class="BasketDiv">
     <?php /** @var \app\widgets\currency\Currency $vars */ $curr = $vars ;?>
-<!--    --><?php //debug($_SESSION['basket']);?>
     <?php foreach ($_SESSION['basket'] as $item): ?>
     <div class="basketEachDiv">
             <div id="basketFirstDiv">
@@ -31,5 +30,7 @@
     </div>
     <?php endforeach ;?>
     <p class="basketFullPrice">Товаров на сумму:  </p>
-    <button class="basket-button-bay" type="button">Купить</button><button class="basket-button-close" type="button" name="close">Закрыть</button>
+    <button class="basket-button-order" type="button">Перейти к оформлению</button>
+    <button class="basket-button-close" type="button" name="close">Закрыть</button>
+
 </div>

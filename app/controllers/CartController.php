@@ -37,9 +37,12 @@ class CartController extends AppController
         die();
     }
 
-    public function bayAction(){
-        require WIDJETS . '/basket/basket_tpl/basket_tpl_bay.php';
-        die();
+    public function orderAction(){
+        $curr = new Currency();
+        $this->setData($curr->currency);
+    }
 
+    public function boughtAction(){
+       return true;
     }
 }
