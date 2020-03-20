@@ -178,9 +178,11 @@ basket.addEventListener('click', () =>
         let basketButtonBay = document.querySelector('.basket-button-order');
 
         basketButtonBay.addEventListener('click', () => {
-            fetchQueryPost('/cart/order', basketData,(response) => {
+            fetchQueryPost('/cart/bought', basketData,(response) => {
                 modalWindowBasket.style.display = "";
-                location.replace ('../cart/order');
+                if(!response) {
+                    location.replace('/user/authorisation&is_auth=0');
+                }
             });
 
         })

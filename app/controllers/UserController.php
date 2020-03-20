@@ -59,6 +59,8 @@ class UserController extends AppController
     public function authorisationAction()
     {
         session_unset();
+        if(isset($_GET['is_auth']))
+            $_SESSION['is_auth'] = $_GET['is_auth'];
         if (empty($_POST)) return true;
         $auth = ['login' => trim($_POST['login']),
             'password' => trim($_POST['password'])

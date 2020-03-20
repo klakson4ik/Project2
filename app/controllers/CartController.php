@@ -3,6 +3,7 @@
 
 namespace app\controllers;
 
+use app\models\cart\BoughtModel;
 use app\widgets\basket\Basket;
 use app\widgets\basket\BasketCookie;
 use app\widgets\currency\Currency;
@@ -37,12 +38,20 @@ class CartController extends AppController
         die();
     }
 
-    public function orderAction(){
-        $curr = new Currency();
-        $this->setData($curr->currency);
-    }
 
     public function boughtAction(){
-       return true;
+        $qty = json_decode(file_get_contents("php://input"), true);
+        $basket = new Basket(new BasketCookie(), new Currency());
+        $basket->basketAddQty($qty);
+        $basket->calculateSum();
+        if(isset($_SESSION['login'])){
+            $curr = new Currency();
+            BoughtModel::setUser($_SESSION['login'], $curr);
+            BoughtModel::setProduct($_SESSION['basket']);
+        }else{
+            echo false;
+            die();
+        }
+
     }
 }

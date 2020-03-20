@@ -7,7 +7,7 @@ use app\widgets\currency\Currency;
 
 class Basket
 {
-    private  $basket = [];
+    private $basket = [];
     private $cookier;
     private $viewPriceAndQty = null;
     private $currency;

@@ -12,6 +12,9 @@
     <label for="login"> Логин</label><input type="text" name="login" id="login"><br>
     <label for="password"> Пароль</label><input type="password" name="password" id="password"><br>
     <input type="submit" value="Отправить" id="send-form-validate">
+    <?php if(isset($_SESSION['is_auth']) && ($_SESSION['is_auth'] == "0")):?>
+        <input value="Зарегестрироваться" type="button" onclick="location.href='/user/registration'" />
+    <?php endif;?>
 </form>
 
 <style>

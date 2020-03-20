@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9247a175-6ef7-4f9f-9630-da7ec0629bde" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/Cart/bought.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/Cart/order.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/cart/BoughtModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/cart/CartDB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/28560e0a-d2e0-4396-a1ae-e233320124b1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/28560e0a-d2e0-4396-a1ae-e233320124b1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/CartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/CartController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/Cart/order.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Cart/order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/User/authorisation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/User/authorisation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/widgets/basket/Basket.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/widgets/basket/Basket.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/widgets/basket/BasketDB.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/widgets/basket/BasketDB.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/widgets/basket/basket_tpl/basket_tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/widgets/basket/basket_tpl/basket_tpl.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/errors.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/core/libs/DB.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/core/libs/DB.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +58,7 @@
         <item name="project2@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="project2: schema" type="ebfa3cd1:MariaImplModel$Schema" />
-        <item name="category: table" type="dbc44a63:MariaImplModel$Table" />
+        <item name="order_product: table" type="dbc44a63:MariaImplModel$Table" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
@@ -75,13 +80,6 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="project2: schema" type="ebfa3cd1:MariaImplModel$Schema" />
         <item name="productComplect: table" type="dbc44a63:MariaImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="project2@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="project2: schema" type="ebfa3cd1:MariaImplModel$Schema" />
-        <item name="related_product: table" type="dbc44a63:MariaImplModel$Table" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
@@ -183,7 +181,7 @@
       <workItem from="1580994393233" duration="72460000" />
       <workItem from="1581502784864" duration="211789000" />
       <workItem from="1583833671338" duration="600000" />
-      <workItem from="1583837615086" duration="37350000" />
+      <workItem from="1583837615086" duration="71203000" />
     </task>
     <servers />
   </component>
@@ -255,10 +253,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="257" height="520" key="HiddenNamespacesPopup/0.27.1920.1053@0.27.1920.1053" timestamp="1575286211181" />
-    <state x="667" y="364" width="671" height="385" key="NewPhpClassDialog" timestamp="1583848086881">
+    <state x="667" y="364" width="671" height="385" key="NewPhpClassDialog" timestamp="1584713407804">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="667" y="364" width="671" height="385" key="NewPhpClassDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1583848086881" />
+    <state x="667" y="364" width="671" height="385" key="NewPhpClassDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1584713407804" />
     <state x="756" y="478" width="397" height="158" key="NewPhpFileDialog" timestamp="1584018536621">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -267,14 +265,14 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="828" y="450" width="373" height="241" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.27.1920.1053@0.27.1920.1053" timestamp="1577275256693" />
-    <state x="717" y="377" width="476" height="369" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1583167319648">
+    <state x="717" y="377" width="476" height="375" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1584714337000">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="717" y="377" width="476" height="369" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1583167319648" />
-    <state x="698" y="154" width="554" height="731" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1583167506451">
+    <state x="717" y="377" width="476" height="375" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1584714337000" />
+    <state x="698" y="154" width="554" height="731" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1584632132349">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="698" y="154" width="554" height="731" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1583167506451" />
+    <state x="698" y="154" width="554" height="731" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1584632132349" />
     <state x="812" y="319" width="285" height="475" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1575631422131">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -295,10 +293,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="624" y="252" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1578590209761" />
-    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1583849026734">
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1584711159981">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1583849026734" />
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1584711159981" />
     <state x="685" y="467" width="540" height="180" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1580994411321">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
