@@ -42,12 +42,14 @@ class CartController extends AppController
     public function boughtAction(){
         $qty = json_decode(file_get_contents("php://input"), true);
         $basket = new Basket(new BasketCookie(), new Currency());
-        $basket->basketAddQty($qty);
+        $basket->basketAddQty($qty[0][1]);
         $basket->calculateSum();
         if(isset($_SESSION['login'])){
             $curr = new Currency();
-            BoughtModel::setUser($_SESSION['login'], $curr);
-            BoughtModel::setProduct($_SESSION['basket']);
+            $note = $qty[1][1];
+            BoughtModel::setUser($_SESSION['login'], $curr->currency['code'], $note);
+            $idOrder = BoughtModel::getOrderID();
+            BoughtModel::setProduct($idOrder['ID'], $_SESSION['basket']);
         }else{
             echo false;
             die();

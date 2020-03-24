@@ -30,6 +30,7 @@
     </div>
     <?php endforeach ;?>
     <p class="basketFullPrice">Товаров на сумму:  </p>
+    <textarea name="note" id="note" cols="80" rows="5"></textarea>,</br>
     <button class="basket-button-order" type="button">Купить</button>
 
     <button class="basket-button-close" type="button" name="close">Закрыть</button>

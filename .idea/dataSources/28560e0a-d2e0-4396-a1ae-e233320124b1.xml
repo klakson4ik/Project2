@@ -1495,6 +1495,7 @@
       <Position>1</Position>
       <DataType>int(10)|0s</DataType>
       <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="371" parent="333" name="order_id">
@@ -1536,21 +1537,24 @@
       <Position>1</Position>
       <DataType>int(10)|0s</DataType>
       <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="379" parent="334" name="user_id">
+    <column id="379" parent="334" name="user_name">
       <Position>2</Position>
-      <DataType>int(10)|0s</DataType>
+      <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="380" parent="334" name="status">
       <Position>3</Position>
       <DataType>int(1)|0s</DataType>
+      <DefaultExpression>1</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="381" parent="334" name="date">
       <Position>4</Position>
-      <DataType>date|0s</DataType>
+      <DataType>timestamp|0s</DataType>
+      <DefaultExpression>current_timestamp()</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="382" parent="334" name="update_at">

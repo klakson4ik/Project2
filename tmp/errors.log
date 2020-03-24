@@ -8872,3 +8872,162 @@
 [2020-03-20 15:04:58] Текст ошибки: Контроллер app\controllers\CssController не найден |
       файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
 ==================
+[2020-03-23 12:42:21] Текст ошибки: syntax error, unexpected '}' |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/DB.php | Строка: 126 
+==================
+[2020-03-23 13:47:02] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-23 13:47:24] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-23 13:47:27] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-23 13:47:28] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-23 13:47:28] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-23 13:47:29] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-23 16:19:16] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-23 16:19:28] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-23 16:19:53] Текст ошибки: Cannot use object of type app\widgets\currency\Currency as array |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/DB.php | Строка: 125 
+==================
+[2020-03-23 16:24:03] Текст ошибки: Cannot use object of type app\widgets\currency\Currency as array |
+      файл: /home/maks/Документы/Web/project2/app/controllers/CartController.php | Строка: 50 
+==================
+[2020-03-23 16:25:00] Текст ошибки: SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/DB.php | Строка: 127 
+==================
+[2020-03-23 16:25:28] Текст ошибки: SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/DB.php | Строка: 127 
+==================
+[2020-03-23 16:26:04] Текст ошибки: SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/DB.php | Строка: 127 
+==================
+[2020-03-23 16:26:42] Текст ошибки: SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/DB.php | Строка: 127 
+==================
+[2020-03-23 16:27:24] Текст ошибки: SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/DB.php | Строка: 127 
+==================
+[2020-03-23 17:57:13] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-23 17:57:19] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-23 17:57:26] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-24 11:00:08] Текст ошибки: SQLSTATE[HY000]: General error: 1558 Column count of mysql.proc is wrong. Expected 21, found 20. Created with MariaDB 100108, now running 100408. Please use mysql_upgrade to fix this error |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/DB.php | Строка: 131 
+==================
+[2020-03-24 11:05:38] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT SCOPE_IDENTITY() as ID' at line 1 |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/DB.php | Строка: 122 
+==================
+[2020-03-24 11:06:54] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT LAST_INSERT_ID() as ID' at line 1 |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/DB.php | Строка: 122 
+==================
+[2020-03-24 11:07:34] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT LAST_INSERT_ID as ID' at line 1 |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/DB.php | Строка: 122 
+==================
+[2020-03-24 11:08:20] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT last_insert_id() as ID' at line 1 |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/DB.php | Строка: 122 
+==================
+[2020-03-24 11:50:53] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-24 11:50:57] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-24 11:51:05] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-24 11:54:18] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-24 11:54:23] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-24 11:54:33] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-24 11:54:46] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-24 11:54:47] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-24 12:11:32] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-24 15:21:19] Текст ошибки: SQLSTATE[HY093]: Invalid parameter number |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/DB.php | Строка: 146 
+==================
+[2020-03-24 15:28:29] Текст ошибки: syntax error, unexpected ';', expecting ')' |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/DB.php | Строка: 139 
+==================
+[2020-03-24 15:28:51] Текст ошибки: SQLSTATE[HY093]: Invalid parameter number |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/DB.php | Строка: 146 
+==================
+[2020-03-24 15:46:17] Текст ошибки: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: 'Array' for column `project2`.`order_product`.`order_id` at row 1 |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/DB.php | Строка: 146 
+==================
+[2020-03-24 15:51:13] Текст ошибки: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: 'Array' for column `project2`.`order_product`.`order_id` at row 1 |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/DB.php | Строка: 146 
+==================
+[2020-03-24 15:51:28] Текст ошибки: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: 'Array' for column `project2`.`order_product`.`order_id` at row 1 |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/DB.php | Строка: 146 
+==================
+[2020-03-24 17:07:18] Текст ошибки: Access to undeclared static property: app\controllers\UserController::$action |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 64 
+==================
+[2020-03-24 17:12:23] Текст ошибки: Access to undeclared static property: app\controllers\UserController::$action |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 64 
+==================
+[2020-03-24 17:12:25] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-24 17:12:27] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-24 17:14:36] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-24 17:15:39] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-24 17:18:43] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-24 17:18:55] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-24 17:19:42] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-24 17:20:22] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-24 17:21:13] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-24 17:21:24] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-24 17:21:41] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-24 18:43:44] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================

@@ -14,7 +14,7 @@ function fetchQuery(query, callback){
 function fetchQueryPost(query, data, callback){
     fetch(query, {
         method: "POST",
-        body: JSON.stringify(data),
+        body: JSON.stringify([...data]),
         headers: {'Content-Type': 'application/json; charset=UTF-8'}
     })
         .then(response => {
@@ -175,13 +175,20 @@ basket.addEventListener('click', () =>
             modalWindowBasket.style.display = "";
         })
 
+
+
         let basketButtonBay = document.querySelector('.basket-button-order');
 
         basketButtonBay.addEventListener('click', () => {
-            fetchQueryPost('/cart/bought', basketData,(response) => {
+            let note = document.querySelector("#note");
+            let fullData = new Map([['qty', basketData] , ['note', note.value]]);
+
+            fetchQueryPost('/cart/bought', fullData,(response) => {
                 modalWindowBasket.style.display = "";
                 if(!response) {
                     location.replace('/user/authorisation&is_auth=0');
+                }else{
+                    document.querySelector('body').innerHTML = response;
                 }
             });
 

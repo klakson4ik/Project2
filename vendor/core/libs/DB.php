@@ -118,6 +118,34 @@ class DB
         return $value;
     }
 
+    public static function insertOrder($sql, $login, $curr, $note){
+        $stmt = self::$pdo->prepare($sql);
+        $stmt->bindValue(1, $login, \PDO::PARAM_STR);
+        $stmt->bindValue(2, 1, \PDO::PARAM_INT);
+        $stmt->bindValue(3, $curr, \PDO::PARAM_STR);
+        $stmt->bindValue(4, $note, \PDO::PARAM_STR);
+        $stmt->execute();
+    }
+
+    public static function scopeIdentife(){
+        $sql = ("SELECT LAST_INSERT_ID() as ID");
+        $query = self::$pdo->query($sql);
+        $value = $query->fetch();
+        return $value;
+    }
+
+    public static function setOrderProduct($sql, $orderID, $product){
+        $stmt = self::$pdo->prepare($sql);
+        $stmt->bindValue(1, $orderID, \PDO::PARAM_INT);
+        foreach ($product as $value){
+            $stmt->bindValue(2, $value['id'], \PDO::PARAM_INT);
+            $stmt->bindValue(3, $value['complect'], \PDO::PARAM_STR);
+            $stmt->bindValue(4, $value['color'], \PDO::PARAM_STR);
+            $stmt->bindValue(5, $value['price'], \PDO::PARAM_INT);
+            $stmt->bindValue(6, $value['qty'], \PDO::PARAM_INT);
+            $stmt->execute();
+        }
+    }
 }
 
 
