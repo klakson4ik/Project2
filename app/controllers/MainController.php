@@ -3,6 +3,7 @@
 namespace app\controllers;
 
 use app\models\main\MainModel;
+use app\widgets\filter\Filter;
 use app\widgets\pagination\Pagination;
 
 class MainController extends AppController
@@ -17,6 +18,11 @@ class MainController extends AppController
         $arrayProduct = $pagination->getPagination(9, $arrayProduct);
 
         $arrayProduct['pages'] = $this->loadView(VIEWS . '/General/cardProduct.php', $arrayProduct['pages']);
+
+        $filter = new Filter();
+//        $arrayProduct['filter'] = ['filterTitle' => $filter->getFiltersTitle(), 'filters' => $filter->getFilters()];
+//        debug($arrayProduct);
+       debug($filter->getTplList());
 
         $this->setData($arrayProduct);
 

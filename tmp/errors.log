@@ -9031,3 +9031,51 @@
 [2020-03-24 18:43:44] Текст ошибки: Контроллер app\controllers\CssController не найден |
       файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
 ==================
+[2020-03-26 14:42:09] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'id, product_id)' at line 1 |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/DB.php | Строка: 27 
+==================
+[2020-03-26 14:48:21] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'id, product_id)' at line 1 |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/DB.php | Строка: 27 
+==================
+[2020-03-26 14:48:22] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'id, product_id)' at line 1 |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/DB.php | Строка: 27 
+==================
+[2020-03-26 14:48:33] Текст ошибки: Контроллер app\controllers\CssController не найден |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/Router.php | Строка: 56 
+==================
+[2020-03-26 14:48:36] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'id, product_id)' at line 1 |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/DB.php | Строка: 27 
+==================
+[2020-03-26 14:56:03] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'id, product_id)' at line 1 |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/DB.php | Строка: 27 
+==================
+[2020-03-26 14:57:07] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IN('id', 'product_id')' at line 1 |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/DB.php | Строка: 27 
+==================
+[2020-03-26 14:57:10] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IN('id', 'product_id')' at line 1 |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/DB.php | Строка: 27 
+==================
+[2020-03-26 16:43:05] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list' |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/DB.php | Строка: 27 
+==================
+[2020-03-26 16:43:29] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list' |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/DB.php | Строка: 27 
+==================
+[2020-03-26 16:43:35] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list' |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/DB.php | Строка: 27 
+==================
+[2020-03-26 16:45:30] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column '' in 'field list' |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/DB.php | Строка: 27 
+==================
+[2020-03-26 16:45:56] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'brand,screen,RAM,ROM,display_resolution,OS,Camera' in 'field list' |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/DB.php | Строка: 27 
+==================
+[2020-03-26 16:46:22] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'brand,screen,RAM,ROM,display_resolution,OS,Camera' in 'field list' |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/DB.php | Строка: 27 
+==================
+[2020-03-26 16:46:49] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IN('brand,screen,RAM,ROM,display_resolution,OS,Camera') FROM telephone_attribut' at line 1 |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/DB.php | Строка: 27 
+==================
+[2020-03-26 18:02:56] Текст ошибки: Call to undefined method app\widgets\filter\Filter::getFiltersTitle() |
+      файл: /home/maks/Документы/Web/project2/app/controllers/MainController.php | Строка: 23 
+==================

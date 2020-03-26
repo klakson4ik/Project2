@@ -146,6 +146,11 @@ class DB
             $stmt->execute();
         }
     }
+
+    public static function getTitleTable($sql){
+        $query = self::$pdo->query($sql);
+        return $query->fetchAll();
+    }
 }
 
 
