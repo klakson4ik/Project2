@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9247a175-6ef7-4f9f-9630-da7ec0629bde" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/widgets/filter/Filter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/widgets/filter/FilterDB.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/widgets/filter/FilterlistModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/widgets/filter/tpl/tpl_list.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/28560e0a-d2e0-4396-a1ae-e233320124b1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/28560e0a-d2e0-4396-a1ae-e233320124b1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/widgets/filter/Filter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/widgets/filter/Filter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/widgets/filter/FilterlistModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/widgets/filter/FilterlistModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/widgets/filter/tpl/tpl_list.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/widgets/filter/tpl/tpl_list.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/errors.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/core/libs/DB.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/core/libs/DB.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +152,7 @@
       <workItem from="1580994393233" duration="72460000" />
       <workItem from="1581502784864" duration="211789000" />
       <workItem from="1583833671338" duration="600000" />
-      <workItem from="1583837615086" duration="127242000" />
+      <workItem from="1583837615086" duration="146904000" />
     </task>
     <servers />
   </component>
@@ -260,6 +256,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="610" y="171" width="690" height="771" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1579527724121" />
+    <state x="732" y="473" width="455" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585585197471">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="732" y="473" width="455" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1053@0.27.1920.1053" timestamp="1585585197471" />
     <state x="609" y="269" width="700" height="530" key="recent.locations.popup" timestamp="1580985336600">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -276,5 +276,15 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="685" y="467" width="540" height="180" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1580994411321" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/widgets/filter/FilterDB.php</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

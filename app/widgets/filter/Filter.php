@@ -8,14 +8,16 @@ class Filter
 {
     private $tpl;
     private $tplList;
-    private $titleFilter;
-    private $filters;
+    private $filterTitles;
+    private $filterProducts;
+    private $filterPositions;
 
 
     public function __construct()
     {
-        $this->titleFilter = FilterlistModel::getFilterTitle();
-        $this->filters = FilterlistModel::getFilters($this->titleFilter);
+        $this->filterTitles = FilterlistModel::getFilterTitle();
+        $this->filterProducts = FilterlistModel::getFilters($this->filterTitles);
+        $this->filterPositions = FilterlistModel::getFilterPositions($this->filterProducts, $this->filterTitles);
         $this->tplList = WIDJETS . "/filter/tpl/tpl_list.php";
         //        $this->tpl = $tpl;
 
@@ -24,7 +26,7 @@ class Filter
     public function getTplList(){
         ob_start();
         require_once $this->tplList;
-        echo ob_get_clean();
+        return ob_get_clean();
     }
 
 

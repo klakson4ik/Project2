@@ -22,7 +22,8 @@ class MainController extends AppController
         $filter = new Filter();
 //        $arrayProduct['filter'] = ['filterTitle' => $filter->getFiltersTitle(), 'filters' => $filter->getFilters()];
 //        debug($arrayProduct);
-       debug($filter->getTplList());
+        echo $filter->getTplList();
+
 
         $this->setData($arrayProduct);
 
