@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: localhost
--- Время создания: Мар 10 2020 г., 12:27
+-- Время создания: Апр 03 2020 г., 18:14
 -- Версия сервера: 10.4.8-MariaDB
 -- Версия PHP: 7.3.11
 
@@ -72,6 +72,118 @@ INSERT INTO `currencies` (`id`, `title`, `code`, `Symbol_left`, `Symbol_right`, 
 (1, 'Доллар', 'USD', '', '$', 1, 1),
 (2, 'ЕВРО', 'EUR', 'E', '', 0.8, 0),
 (3, 'Рубль', 'RUB', '', 'руб', 65, 0);
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `order_product`
+--
+
+CREATE TABLE `order_product` (
+  `id` int(10) NOT NULL,
+  `order_id` int(10) DEFAULT NULL,
+  `product_id` int(10) DEFAULT NULL,
+  `complect` varchar(255) DEFAULT NULL,
+  `color` varchar(255) DEFAULT NULL,
+  `price` int(10) DEFAULT NULL,
+  `qty` int(10) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Дамп данных таблицы `order_product`
+--
+
+INSERT INTO `order_product` (`id`, `order_id`, `product_id`, `complect`, `color`, `price`, `qty`) VALUES
+(6, 50, 1, 'Minimum', 'Black', 840, 7),
+(7, 50, 2, 'Minimum', 'Black', 584, 6),
+(8, 51, 1, 'Minimum', 'Black', 840, 7),
+(9, 51, 2, 'Minimum', 'Black', 584, 6),
+(10, 52, 1, 'Minimum', 'Black', 840, 7),
+(11, 52, 2, 'Minimum', 'Black', 584, 6),
+(12, 53, 1, 'Minimum', 'Black', 840, 7),
+(13, 53, 2, 'Minimum', 'Black', 584, 6),
+(14, 54, 1, 'Minimum', 'Black', 840, 7),
+(15, 54, 2, 'Minimum', 'Black', 584, 6),
+(16, 55, 1, 'Minimum', 'Black', 840, 7),
+(17, 55, 2, 'Minimum', 'Black', 584, 6),
+(18, 56, 1, 'Minimum', 'Black', 840, 7),
+(19, 56, 2, 'Minimum', 'Black', 584, 6),
+(20, 57, 1, 'Minimum', 'Black', 840, 7),
+(21, 57, 2, 'Minimum', 'Black', 584, 6),
+(22, 58, 1, 'Minimum', 'Black', 840, 7),
+(23, 58, 2, 'Minimum', 'Black', 584, 6),
+(24, 59, 1, 'Minimum', 'Black', 840, 7),
+(25, 59, 2, 'Minimum', 'Black', 584, 6),
+(26, 60, 1, 'Minimum', 'Black', 840, 7),
+(27, 60, 2, 'Minimum', 'Black', 584, 6),
+(28, 61, 1, 'Minimum', 'Black', 840, 7),
+(29, 61, 2, 'Minimum', 'Black', 584, 6),
+(30, 62, 1, 'Minimum', 'Black', 840, 7),
+(31, 62, 2, 'Minimum', 'Black', 584, 6),
+(32, 63, 1, 'Minimum', 'Black', 840, 7),
+(33, 63, 2, 'Minimum', 'Black', 584, 6);
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `order_user`
+--
+
+CREATE TABLE `order_user` (
+  `id` int(10) NOT NULL,
+  `user_name` varchar(255) DEFAULT NULL,
+  `status` int(1) DEFAULT 1,
+  `date` timestamp NULL DEFAULT current_timestamp(),
+  `update_at` int(10) DEFAULT NULL,
+  `currency` varchar(255) DEFAULT NULL,
+  `note` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Дамп данных таблицы `order_user`
+--
+
+INSERT INTO `order_user` (`id`, `user_name`, `status`, `date`, `update_at`, `currency`, `note`) VALUES
+(1, 'maksim', 1, '2020-03-23 15:30:25', NULL, 'USD', 'Доставить до дома'),
+(2, 'maksim', 1, '2020-03-23 15:31:24', NULL, 'USD', 'Провести оптом'),
+(3, 'maksim', 1, '2020-03-23 15:31:45', NULL, 'USD', ''),
+(4, 'maksim', 1, '2020-03-23 15:32:18', NULL, 'RUB', ''),
+(5, 'maksim', 1, '2020-03-23 16:59:31', NULL, 'USD', ''),
+(6, 'maksim', 1, '2020-03-24 10:00:08', NULL, 'USD', 'wrerer'),
+(7, 'maksim', 1, '2020-03-24 10:13:18', NULL, 'USD', 'lastInsertID'),
+(8, 'maksim', 1, '2020-03-24 10:35:19', NULL, 'USD', 'Первый полный заказ'),
+(9, 'maksim', 1, '2020-03-24 10:36:10', NULL, 'USD', ''),
+(10, 'maksim', 1, '2020-03-24 10:36:56', NULL, 'USD', 'Заказ полный'),
+(34, 'maksim', 1, '2020-03-24 14:37:30', NULL, 'USD', ''),
+(35, 'maksim', 1, '2020-03-24 14:45:52', NULL, 'USD', ''),
+(36, 'maksim', 1, '2020-03-24 14:46:17', NULL, 'USD', ''),
+(37, 'maksim', 1, '2020-03-24 14:51:13', NULL, 'USD', ''),
+(38, 'maksim', 1, '2020-03-24 14:51:28', NULL, 'USD', ''),
+(39, 'maksim', 1, '2020-03-24 14:51:53', NULL, 'USD', ''),
+(40, 'maksim', 1, '2020-03-24 14:56:31', NULL, 'USD', ''),
+(41, 'maksim', 1, '2020-03-24 15:04:11', NULL, 'USD', ''),
+(42, 'maksim', 1, '2020-03-24 15:07:25', NULL, 'USD', ''),
+(43, 'maksim', 1, '2020-03-24 15:27:06', NULL, 'USD', 'yuyuyu'),
+(44, 'maksim', 1, '2020-03-24 15:29:04', NULL, 'USD', ''),
+(45, 'maksim', 1, '2020-03-24 15:38:32', NULL, 'USD', ''),
+(46, 'maksim', 1, '2020-03-24 15:39:57', NULL, 'USD', ''),
+(47, 'maksim', 1, '2020-03-24 15:41:32', NULL, 'USD', ''),
+(48, 'maksim', 1, '2020-03-24 15:44:18', NULL, 'USD', ''),
+(49, 'maksim', 1, '2020-03-24 15:46:34', NULL, 'USD', ''),
+(50, 'maksim', 1, '2020-03-24 15:47:37', NULL, 'USD', ''),
+(51, 'maksim', 1, '2020-03-24 16:04:41', NULL, 'USD', 'dhfkjhfdj'),
+(52, 'maksim', 1, '2020-03-24 16:07:18', NULL, 'USD', ''),
+(53, 'maksim', 1, '2020-03-24 16:12:45', NULL, 'USD', ''),
+(54, 'maksim', 1, '2020-03-24 16:12:56', NULL, 'USD', ''),
+(55, 'maksim', 1, '2020-03-24 16:13:40', NULL, 'USD', ''),
+(56, 'maksim', 1, '2020-03-24 16:14:11', NULL, 'USD', ''),
+(57, 'maksim', 1, '2020-03-24 16:14:36', NULL, 'USD', ''),
+(58, 'maksim', 1, '2020-03-24 16:18:55', NULL, 'USD', ''),
+(59, 'maksim', 1, '2020-03-24 16:19:42', NULL, 'USD', ''),
+(60, 'maksim', 1, '2020-03-24 16:20:22', NULL, 'USD', ''),
+(61, 'maksim', 1, '2020-03-24 16:21:13', NULL, 'USD', ''),
+(62, 'maksim', 1, '2020-03-24 16:21:24', NULL, 'USD', ''),
+(63, 'maksim', 1, '2020-03-24 16:21:41', NULL, 'USD', '');
 
 -- --------------------------------------------------------
 
@@ -191,6 +303,41 @@ INSERT INTO `related_product` (`product_id`, `related_id`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Структура таблицы `telephone_attribut`
+--
+
+CREATE TABLE `telephone_attribut` (
+  `id` int(10) NOT NULL,
+  `product_id` int(10) DEFAULT NULL,
+  `brand` varchar(255) DEFAULT NULL,
+  `screen` float(2,1) DEFAULT NULL,
+  `RAM` int(2) DEFAULT NULL,
+  `ROM` int(10) DEFAULT NULL,
+  `display_resolution` varchar(255) DEFAULT NULL,
+  `OS` varchar(255) DEFAULT NULL,
+  `Camera` int(10) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Дамп данных таблицы `telephone_attribut`
+--
+
+INSERT INTO `telephone_attribut` (`id`, `product_id`, `brand`, `screen`, `RAM`, `ROM`, `display_resolution`, `OS`, `Camera`) VALUES
+(1, 1, 'Samsung', 6.5, 8, 128, '3040x1440', 'Android', 16),
+(2, 2, 'Samsung', 5.8, 4, 64, '2960x1440', 'Android', 12),
+(3, 3, 'Samsung', 5.8, 4, 64, '2960x1440', 'Android', 12),
+(4, 4, 'Iphone', 5.5, 3, 64, '1920x1080', 'iOS', 12),
+(5, 5, 'Iphone', 5.8, 4, 64, '2436x1125', 'iOS', 12),
+(6, 6, 'Iphone', 5.8, 3, 64, '2436x1125', 'iOS', 12),
+(7, 7, 'Xiaomi', 6.4, 6, 128, '2340x1080', 'Android', 48),
+(8, 8, 'Xiaomi', 6.4, 6, 64, '2340x1080', 'Android', 48),
+(9, 9, 'Xiaomi', 6.2, 6, 64, '2248x1080', 'Android', 12),
+(10, 10, 'Nokia', 6.0, 6, 128, '2960x1440', 'Android', 16),
+(11, 11, 'Nokia', 6.2, 4, 64, '2280x1080', 'Android', 12);
+
+-- --------------------------------------------------------
+
+--
 -- Структура таблицы `User`
 --
 
@@ -209,16 +356,8 @@ CREATE TABLE `User` (
 --
 
 INSERT INTO `User` (`id`, `login`, `email`, `password`, `telephone`, `address`, `role`) VALUES
-(1, 'maks', 'makszona@mail.ru', '14334505Md', '89202773392', 'sdsdsdsdsdsds', 'user'),
-(2, 'masdsddd', 'sdsd@dsrt.rtr', '12333434Vf', '89207654455', 'tgtgtgtgtgt', 'user'),
-(6, 'dfdfdfhdfdfd', 'makszona@mail.ruer', '345345345345345345JJfff', '89294567686', 'gfggfgfgfgfg', 'user'),
-(9, 'maksss', 'makszona@mail.rur', '14334505Na', '89202773391', 'sdfsfdffd', 'user'),
-(10, 'maksim', 'Maksim@mail.ru', '344343344FGDB', '89703349889', 'dfdfdfdfdf', 'user'),
-(11, 'maskkskk', 'sdsdsd@dfffd.ru', 'hgghhghhJJJ4455', '89294567555', 'jhjhjjhjhjhjhj', 'user'),
-(12, 'maksir', 'dfdf@sdff.ru', 'dfdfdfHH34', '89345556667', 'jkjkjkjkkjkj', 'user'),
-(13, 'masjdkjd', 'sdsdsdsd@fgfgfg.tu', '$2y$10$XpiLUuPkizeTNo5hjbTf/OnfBS0vAmTnvLHovW6BUXCjcWtkTzwKO', '89203456787', 'fgfggfgfg', 'user'),
-(14, 'maksimg', 'djffjjK@kkjkj.ru', '$2y$10$aNzHwhKBrhe1aJRXBjjAC.4YbIuZ7minA96nZ2a20YpNPpSrblHP2', '89239876543', 'gffgfgfgfsfg', 'user'),
-(15, 'hhhhhhhhhhhhhhhhh', 'dffdfdfd@fdfdf.rijjjjj', '$2y$10$NuLzjhOyy79iXT6NvtKVL.yh3EdU7a8trQBs03sOmuOANHgpbR3gm', '89202773355', 'dddd gggggjjjkfdsd', 'user');
+(16, 'maks', 'makszona@mail.ru', '$2y$10$FmJE/jsvnTyzYTpC85wp.OraOzauJLxhTYYZSdRLQYFFoeVnKqXQK', '89202773392', 'town Schekino', 'user'),
+(17, 'maksim', 'maksim@mail.ru', '$2y$10$FpvtJK5g.BkHhUcs57ClOuXj8VguiJ7cRZni9Z18dYe7Q7mJcIW.6', '89207654455', 'town Tula', 'user');
 
 --
 -- Индексы сохранённых таблиц
@@ -236,6 +375,18 @@ ALTER TABLE `category`
 ALTER TABLE `currencies`
   ADD PRIMARY KEY (`id`),
   ADD UNIQUE KEY `code` (`code`);
+
+--
+-- Индексы таблицы `order_product`
+--
+ALTER TABLE `order_product`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Индексы таблицы `order_user`
+--
+ALTER TABLE `order_user`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Индексы таблицы `product`
@@ -265,6 +416,12 @@ ALTER TABLE `related_product`
   ADD PRIMARY KEY (`product_id`);
 
 --
+-- Индексы таблицы `telephone_attribut`
+--
+ALTER TABLE `telephone_attribut`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Индексы таблицы `User`
 --
 ALTER TABLE `User`
@@ -290,6 +447,18 @@ ALTER TABLE `currencies`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
+-- AUTO_INCREMENT для таблицы `order_product`
+--
+ALTER TABLE `order_product`
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
+
+--
+-- AUTO_INCREMENT для таблицы `order_user`
+--
+ALTER TABLE `order_user`
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=64;
+
+--
 -- AUTO_INCREMENT для таблицы `product`
 --
 ALTER TABLE `product`
@@ -308,10 +477,16 @@ ALTER TABLE `productComplect`
   MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
+-- AUTO_INCREMENT для таблицы `telephone_attribut`
+--
+ALTER TABLE `telephone_attribut`
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+
+--
 -- AUTO_INCREMENT для таблицы `User`
 --
 ALTER TABLE `User`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

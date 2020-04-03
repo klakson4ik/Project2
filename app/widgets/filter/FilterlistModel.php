@@ -37,12 +37,11 @@ class FilterlistModel
                     $array[$title][] = $product[$title];
             }
         }
-        foreach($array as $value){
+        foreach($array as &$value){
             sort($value);
         }
 
-        debug($array);
-//        return $array;
+        return $array;
     }
 }
 

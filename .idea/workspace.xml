@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9247a175-6ef7-4f9f-9630-da7ec0629bde" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/MainController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/widgets/filter/Filter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/widgets/filter/Filter.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/widgets/filter/FilterlistModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/widgets/filter/FilterlistModel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/widgets/filter/tpl/tpl_list.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/widgets/filter/tpl/tpl_list.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/errors.log" afterDir="false" />
@@ -110,12 +108,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:project2@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -153,6 +146,8 @@
       <workItem from="1581502784864" duration="211789000" />
       <workItem from="1583833671338" duration="600000" />
       <workItem from="1583837615086" duration="146904000" />
+      <workItem from="1585912831602" duration="148000" />
+      <workItem from="1585913014978" duration="9395000" />
     </task>
     <servers />
   </component>
