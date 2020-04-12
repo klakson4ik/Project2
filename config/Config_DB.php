@@ -2,7 +2,7 @@
 
 define('DB_HOST', 'localhost');
 define('DB_LOGIN', 'root');
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', '1');
 define('DB_NAME', 'project2');
 define('CHARSET', 'utf8');
 
@@ -14,4 +14,4 @@ const DB_OPT = [
     PDO::ATTR_EMULATE_PREPARES   => false,
 ];
 
- ?>
+

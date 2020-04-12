@@ -17,4 +17,9 @@ class FilterDB
         $sql = ("SELECT $title FROM telephone_attribut");
         return DB::getAssoc($sql);
     }
+
+    public static function getViewDB(){
+        $sql = ("SELECT title, filter, symbol FROM filters_view ");
+        return DB::getAssoc($sql, true);
+    }
 }

@@ -15,11 +15,12 @@ class SearchController extends AppController
 //        SearchProduct::setAllFile();
 
         $searchData = (!empty($_GET['query'])) ? SearchProduct::getSearchProduct($_GET['query']) : false;
+        debug($searchData);
         $id = $searchData[1]['category_id'];
 
         $pagination = new Pagination();
 
-        $searchData = $pagination->getPagination(3, $searchData);
+        $searchData = $pagination->getPagination(2, $searchData);
 
         $searchData['pages'] = $searchData ? $this->loadView( VIEWS . '/General/cardProduct.php', $searchData['pages']) : $this->loadView( VIEWS . '/General/cardProduct.php');
 

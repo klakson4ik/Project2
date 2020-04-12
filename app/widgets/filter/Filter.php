@@ -11,6 +11,7 @@ class Filter
     private $filterTitles;
     private $filterProducts;
     private $filterPositions;
+    private $filterView;
 
 
     public function __construct()
@@ -18,6 +19,7 @@ class Filter
         $this->filterTitles = FilterlistModel::getFilterTitle();
         $this->filterProducts = FilterlistModel::getFilters($this->filterTitles);
         $this->filterPositions = FilterlistModel::getFilterPositions($this->filterProducts, $this->filterTitles);
+        $this->filterView = FilterlistModel::getFilterView();
         $this->tplList = WIDJETS . "/filter/tpl/tpl_list.php";
         //        $this->tpl = $tpl;
 

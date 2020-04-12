@@ -68,8 +68,6 @@ for (let val of validateArr){
         }
 
         // console.log(succussValidate)
-        console.log(count);
-        console.log(succussValidate.size);
         if(count === succussValidate.size)
             submit.disabled = false;
         else

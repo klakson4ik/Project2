@@ -11,19 +11,20 @@ class MainController extends AppController
 
    public function indexAction()
    {
+        $changeFilters = json_decode(file_get_contents("php://input"), true);
+        debug($changeFilters);
 
         $arrayProduct = MainModel::queryProduct();
 
         $pagination = new Pagination();
-        $arrayProduct = $pagination->getPagination(9, $arrayProduct);
+        $arrayProduct = $pagination->getPagination(6, $arrayProduct);
 
         $arrayProduct['pages'] = $this->loadView(VIEWS . '/General/cardProduct.php', $arrayProduct['pages']);
 
         $filter = new Filter();
-//        $arrayProduct['filter'] = ['filterTitle' => $filter->getFiltersTitle(), 'filters' => $filter->getFilters()];
-//        debug($arrayProduct);
-        echo $filter->getTplList();
 
+        $filters =  $filter->getTplList();
+        $arrayProduct['filters'] = $filters;
 
         $this->setData($arrayProduct);
 

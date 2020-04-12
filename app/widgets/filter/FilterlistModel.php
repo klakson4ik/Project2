@@ -43,5 +43,9 @@ class FilterlistModel
 
         return $array;
     }
+
+    public static function getFilterView(){
+        return FilterDB::getViewDB();
+    }
 }
 
