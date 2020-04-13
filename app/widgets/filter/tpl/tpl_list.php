@@ -57,12 +57,18 @@
 
 <script>
     function fetchFullGetArray(data){
-        let url = "/main/index/";
+        let url = '/main/index/';
+
         console.log(data)
-        for (let i = 0; i < data.length; ++i){
-            console.log(data[i])
-            console.log("--------------")
+        for (let key in data){
+            url += key + "=";
+            for (let value in data[key])
+                url +=data[key][value] + ",";
+            url.slice(0,-1);
+            url += "&";
+            console.log(url);
         }
+        console.log(url);
     }
 
     let data = {};

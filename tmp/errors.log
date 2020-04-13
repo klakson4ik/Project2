@@ -9115,3 +9115,9 @@
 [2020-04-03 16:48:40] Текст ошибки: syntax error, unexpected '<' |
       файл: /home/maks/Документы/Web/project2/app/widgets/filter/tpl/tpl_list.php | Строка: 8 
 ==================
+[2020-04-13 18:35:38] Текст ошибки: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/DB.php | Строка: 12 
+==================
+[2020-04-13 18:37:53] Текст ошибки: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) |
+      файл: /home/maks/Документы/Web/project2/vendor/core/libs/DB.php | Строка: 12 
+==================
